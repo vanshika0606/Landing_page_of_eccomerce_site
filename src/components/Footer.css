@@ -91,6 +91,7 @@
 @media screen and (max-width: 750px) {
     .box1,.box2 , .box3 , .box4{
         margin:auto;
+        width:70vw;
     }
 
   .box1-box2, .box3-box4{
@@ -102,6 +103,9 @@
   }
   .box4{
     padding-top:0px;
+  }
+  .footer-input{
+    width:auto;
   }
 }
    
