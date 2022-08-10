@@ -1,0 +1,73 @@
+.mat{
+    height:75vh;
+    
+}
+
+
+.yoga-mat-background{
+    position:relative;
+    
+    
+}
+
+
+.yoga_mat{
+    width:100vw;
+    height:75vh;
+    position: relative;
+    top:-53px;
+    filter:invert(13%);
+   
+}
+
+.yoga-mats-info{
+    position: relative;
+    top:-450px;
+    color: white;
+    
+    height:75vh;
+    
+}
+
+.yoga-mats-info p{
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+.yoga-mats-info h1{
+    font-size: 50px;
+}
+.yoga-mats-info h3{
+    font-size: 30px;
+}
+
+.in-yoga-info{
+    top:0px;
+    margin-left: 0px;
+   float: inherit;
+}
+
+@media screen and (max-width: 920px) {
+    .mat{
+        height:50vh;
+    }
+    .yoga_mat{
+       
+       height:50vh;
+       top:-38px;
+    }
+    .yoga-mats-info{
+        top:-300px;    
+        height:50vh;   
+    }
+    
+    .yoga-mats-info p{
+        font-size: 14px;
+    }
+    .yoga-mats-info h1{
+        font-size: 35px;
+    }
+    .yoga-mats-info h3{
+        font-size: 23px;
+    }
+}

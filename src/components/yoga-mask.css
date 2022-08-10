@@ -1,0 +1,31 @@
+.mask{
+    height: 70vh;
+}
+
+
+.yoga-mask{
+    filter:invert(13%);
+    width:100vw;
+    height:70vh;
+}
+.mask-info{
+    margin-top: 100px;
+    
+}
+
+@media screen and (max-width: 920px) {
+
+    .yoga-mask{
+
+      
+        height:50vh;
+    }
+    .mask-info{
+        margin-top: 50px;
+       
+        
+     }
+     .mask{
+        height: 50vh;
+    }
+}
